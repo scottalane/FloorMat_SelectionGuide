@@ -1,0 +1,265 @@
+/*classes = selector
+			companyName
+			quality
+*/
+
+body	{
+	font-family: Helvetica, sans-serif;
+	color: #808080;
+/*	background-image: url("../assets/art_photos/StartHere.png");
+	background-repeat: no-repeat;
+
+	background-position: center-top;
+	*/
+}
+
+.start_here_bkg {
+    max-width: 100%;
+    height: auto;
+    margin-left:	15%;
+    margin-right:	15%;
+    padding-left:	;
+    padding-right:	;
+    padding-bottom: ;
+    padding-top:  ;
+
+}
+
+.gbb_wht_bars_bkg{
+	max-width: 100%;
+    height: auto;
+    margin-left:	15%;
+    margin-right:	5%;
+}
+
+.good_better_best_bkg{
+	max-width: 100%;
+    height: auto;
+    margin-left:	15%;
+    margin-right:	5%;
+}
+
+.make_selection_bkg{
+	max-width: 100%;
+    height: auto;
+    margin-left:	15%;
+    margin-right:	5%;
+}
+.entrance {
+	margin-top:	;
+	margin-left:	%;
+	margin-right:	70%;
+	margin-bottom: 1%;
+}
+.entrance_orange{
+	color:	orange;
+}
+
+.walk_in{
+	float:	;
+	margin-top:	;
+	margin-left:	-%;
+	margin-right:	-70%;
+	margin-bottom: 1%;
+}
+
+.cashier{
+	margin-top:	;
+	margin-left:	%;
+	margin-right:	75%;
+	margin-bottom: 1%;
+}
+
+.transition_area{
+	margin-top:	;
+	margin-left:	%;
+	margin-right:	-75%;
+	margin-bottom: 1%;
+}
+
+.prep_area{
+margin-top:	;
+	margin-left:	%;
+	margin-right:	80%;
+	margin-bottom: 1%;
+}
+
+.waitress{
+	margin-top:	;
+	margin-left:	%;
+	margin-right:	-80%;
+	margin-bottom: 1%;
+}
+
+.bar{
+	margin-top:	;
+	margin-left:	%;
+	margin-right:	85%;
+	margin-bottom: 1%;
+}
+
+.restrooms{
+	margin-top:	;
+	margin-left:	%;
+	margin-right:	-85%;
+	margin-bottom: 1%;
+}
+
+.cookline{
+	margin-top:	;
+	margin-left:	%;
+	margin-right:	80%;
+	margin-bottom: 1%;
+}
+
+.transport_mat{
+	margin-top:	;
+	margin-left:	%;
+	margin-right:	-80%;
+	margin-bottom: 1%;	
+}
+
+.dishwash_area{
+	margin-top:	;
+	margin-left:	%;
+	margin-right:	75%;
+	margin-bottom: 1%;
+}
+
+.rubber_mats{
+	margin-top:	;
+	margin-left:	%;
+	margin-right:	-75%;
+	margin-bottom: 1%;
+}
+
+.salad_bar{
+	margin-top:	;
+	margin-left:	%;
+	margin-right:	70%;
+	margin-bottom: 1%;
+}
+
+.carpet_mats{
+	margin-top:	;
+	margin-left:	%;
+	margin-right:	-60%;
+	margin-bottom: 1%;
+}
+
+header	{
+	font-family: 'Roboto Slab', serif;
+	font-size: 400%;
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+}
+h1 {
+	font-family: 'Roboto Slab bold 700', serif;
+	font-size: 260%;
+	color: green;
+	text-align: center;
+	margin: 0;
+	border-bottom: solid 2px gray;
+}
+	
+
+h2	{
+	font-family: Roboto Slab, serif;
+	color: ;
+	text-align: center;
+	font-size: 100%;
+	padding-bottom: 5px;
+	margin: 0px;
+}
+	
+
+h3	{
+	font-family: Helvetica, sans-serif;
+	text-align: left;
+	margin: 0;
+}
+
+
+h4 {
+	text-align: center;
+	font-size: 120%;
+	color: green;
+	padding-top: 0px;
+	margin: 0px;
+}
+
+h5	{
+	font-family: Grand Hotel, cursive;
+	text-align: center;
+	font-size: 500%;
+	margin: 0;
+}
+
+.good_header	{
+	font-family: Grand Hotel, cursive;
+	text-align: center;
+	font-size:300%;
+
+}
+
+.better_header	{
+	font-family: Grand Hotel, cursive;
+	text-align: center;
+	font-size:300%;
+
+}
+
+.best_header	{
+	font-family: Grand Hotel, cursive;
+	text-align: center;
+	font-size:300%;
+
+}
+
+.good_category	{
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	font-style: ;
+	font-size:125%;
+
+}
+
+.better_category	{
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	font-style: ;
+	font-size:125%;
+
+}
+.best_category, {
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	font-style:	;
+	font-size:125%;
+}
+
+
+p {
+	text-align: center;
+	font-size: 36;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+li	{
+
+	text-align: center;
+}
+
+.company_address {
+	text-align: center;
+}
+
+.thanks_img {
+	max-width: 30%;
+	padding-left: 18%;
+}
