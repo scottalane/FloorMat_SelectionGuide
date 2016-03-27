@@ -17,58 +17,52 @@ $( document ).ready(function() {
 
 /*this is where I need to write my if statements for revealing
 information that pops up when a usage area is clicked on*/
+function display_usageAreaInfo() {
 
-if (onclick = "entrance"){
-  document.getElementsByTagName(select_entrance);
-}
+    if (onclick = "entrance"){
+      document.getElementsByTagName(select_entrance);
 
-if (onclick = "cashier"){
-  document.getElementsByTagName(select_cashier);
-}
-  if (onclick = "prep_area"){
-    document.getElementsByTagName(select_prep_area);
-}
-    if (onclick = "bar"){
-      document.getElementsByTagName(select_bar);
-}
-      if (onclick = "cookline"){
-  document.getElementsByTagName(select_cookline);
-}
-        if (onclick = "dishwash_area"){
-          document.getElementsByTagName(select_dishwash_area);
-}
-          if (onclick = "salad_bar"){
-            document.getElementsByTagName(select_salad_bar;
-}
-            if (onclick = "walk_in"){
-              document.getElementsByTagName(select_walk_in);
-}
-              if (onclick = "transitional_area"){
-                document.getElementsByTagName(select_transitional_area);
-                if (onclick = "waitress"){
-                   document.getElementsByTagName(select_waitress);
-                  if (onclick = "restrooms"){
-                     document.getElementsByTagName(select_restrooms);
-                    if (onclick = "transport_mat"){
-                       document.getElementsByTagName(select_transport_mats);
-                      if (onclick = "rubber_mats"){
-                         document.getElementsByTagName(select_rubber_mats);
-                        if (onclick = "carpet_mats"){
-                           document.getElementsByTagName(select_carpet_mats);
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
+    if (onclick = "cashier"){
+      document.getElementsByTagName(select_cashier);
     }
-  }
-}
-}
+      if (onclick = "prep_area"){
+        document.getElementsByTagName(select_prep_area);
+      }
+        if (onclick = "bar"){
+          document.getElementsByTagName(select_bar);
+        }
+          if (onclick = "cookline"){
+            document.getElementsByTagName(select_cookline);
+          }
+            if (onclick = "dishwash_area"){
+              document.getElementsByTagName(select_dishwash_area);
+            }
+              if (onclick = "salad_bar"){
+                document.getElementsByTagName(select_salad_bar;
+              }
+                if (onclick = "walk_in"){
+                  document.getElementsByTagName(select_walk_in);
+                }
+                  if (onclick = "transitional_area"){
+                    document.getElementsByTagName(select_transitional_area);
+                  }
+                    if (onclick = "waitress"){
+                       document.getElementsByTagName(select_waitress);
+                    }
+                      if (onclick = "restrooms"){
+                         document.getElementsByTagName(select_restrooms);
+                      }
+                        if (onclick = "transport_mat"){
+                           document.getElementsByTagName(select_transport_mats);
+                        }
+                          if (onclick = "rubber_mats"){
+                             document.getElementsByTagName(select_rubber_mats);
+                          }
+                            if (onclick = "carpet_mats"){
+                               document.getElementsByTagName(select_carpet_mats);
+                            }
+    }
+    }
 
 
 /*this function make the font-size change*/
