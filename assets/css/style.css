@@ -63,11 +63,14 @@ h5	{
 
 div.start_here_bkg {
     align-content: center;
-/*    background-image: url("../assets/art_photos/StartHere.png");
-    background-repeat: no-repeat;*/
+    background-image: url(/assets/art_photos/StartHere.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: white;
     position: relative;
-    max-width: 400%;
+    max-width: 100%;
     height: auto;
+    background-color: transparent;
     margin-left:	20%;
     margin-right:	20%;
     padding-left:	;
@@ -78,9 +81,10 @@ div.start_here_bkg {
 }
 
 div.warning_directions_bkg {
-/*	background-image: url("../assets/art_photos/WoahPardner_Artwork.png");
-	background-repeat: no-repeat;*/
-	max-width: 400%;
+	background-image: url("assets/art_photos/WoahPardner_Artwork.png");
+	background-repeat: no-repeat;
+	/*    background-position: 50% 50%;*/
+	max-width: 100%;
     height: auto;
     margin-left:	20%;
     margin-right:	20%;
@@ -92,9 +96,10 @@ div.warning_directions_bkg {
 }
 
 div.gbb_wht_bars_bkg {
-/*	background-image: url("../assets/art_photos/GBB_WhtBars_FMSG_Artwork.png");
-	background-repeat: no-repeat;*/
-	max-width: 400%;
+	background-image: url("assets/art_photos/GBB_WhtBars_FMSG_Artwork.png");
+	background-repeat: no-repeat;
+	/*    background-position: 50% 50%;*/
+	max-width: 100%;
     height: auto;
     background-position: relative;
     margin-left:	20%;
@@ -107,9 +112,10 @@ div.gbb_wht_bars_bkg {
 }
 
 div.good_better_best_bkg {
-/*	background-image: url("../assets/art_photos/Good_Better_BestFMSG_Artwork.png");
-	background-repeat: no-repeat;*/
-	max-width: 400%;
+	background-image: url("../assets/art_photos/Good_Better_BestFMSG_Artwork.png");
+	background-repeat: no-repeat;
+	/*    background-position: 50% 50%;*/
+	max-width: 100%;
     height: auto;
     margin-left:	20%;
     margin-right:	20%;
@@ -121,9 +127,10 @@ div.good_better_best_bkg {
 }
 
 div.make_selection_bkg {
-/*	background-image: url("../assets/art_photos/Please_Make_A_SelectionFMSG_Artwork.png");
-	background-repeat: no-repeat;*/
-	max-width: 400%;
+	background-image: url("../assets/art_photos/Please_Make_A_SelectionFMSG_Artwork.png");
+	background-repeat: no-repeat;
+	/*    background-position: 50% 50%;*/
+	max-width: 100%;
     height: auto;
     margin-left:	20%;
     margin-right:	20%;
@@ -153,7 +160,25 @@ div.clickOn{
     font-size: 120%;
     color: black;
 }
+a {
+	text-decoration: none;
+}
 
+a:link{
+	color: gray;
+}
+
+a:hover {
+	color: #FFEE88;
+}
+
+a:visited {
+	color: #ff9933;
+}
+
+a:active {
+	color:	#75d683;
+}
 .entrance_orange{
 	color:	orange;
 }
@@ -201,6 +226,13 @@ div.clickOn{
     top: 58%;
 }
 
+.barLarge{
+	color: orange
+	font-size: 300%;
+	position: absolute;
+    left: 16%;
+    top: 58%;
+}
 .restrooms{
 	position: absolute;
     left: 81%;
