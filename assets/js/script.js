@@ -38,7 +38,7 @@ function display_usageAreaInfo() {
               document.getElementsByTagName(select_dishwash_area);
             }
               if (onclick = "salad_bar"){
-                document.getElementsByTagName(select_salad_bar;
+                document.getElementsByTagName(select_salad_bar);
               }
                 if (onclick = "walk_in"){
                   document.getElementsByTagName(select_walk_in);
