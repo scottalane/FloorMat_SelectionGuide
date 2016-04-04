@@ -6,7 +6,7 @@
 body	{
 	font-family: Helvetica, sans-serif;
 	color: #808080;
-	background-position: ;
+
 		
 }
 
@@ -14,9 +14,12 @@ header	{
 	font-family: 'Roboto Slab', serif;
 	font-size: 400%;
 	font-weight: bolder;
-	color: black;
+	color: #000000;
 	text-align: center;
 	margin-top: 30px;
+}
+header a{
+
 }
 h1 {
 	font-family: 'Roboto Slab', serif;
@@ -49,7 +52,7 @@ h4 {
 	text-align: center;
 	font-weight:lighter;
 	font-size: 175%;
-	color: red;
+	color: #ff0000;
 	padding-top: 0px;
 	margin: 0px;
 }
@@ -75,7 +78,7 @@ div.start_here_bkg {
     margin-right:	20%;
 */
     align-content: center;
-    background-image: url("../art_photos/StartHere.png");
+    background-image: url("../art_photos/Start_WhiteWood_bkg.jpg");
     background-repeat: no-repeat;
     background-color: white;
     position: relative;
@@ -88,7 +91,7 @@ div.start_here_bkg {
 }
 
 div.warning_directions_bkg {
-	background-image: url("assets/art_photos/WoahPardner_Artwork.png");
+	background-image: url("../art_photos/WoahPardner_Artwork.png");
 	background-repeat: no-repeat;
 	/*    background-position: 50% 50%;*/
 	max-width: 100%;
@@ -98,9 +101,10 @@ div.warning_directions_bkg {
 }
 
 div.gbb_wht_bars_bkg {
-	background-image: url("assets/art_photos/GBB_WhtBars_FMSG_Artwork.png");
+
+	/*background-image: url("assets/art_photos/GBB_WhtBars_FMSG_Artwork.png");
 	background-repeat: no-repeat;
-	/*    background-position: 50% 50%;*/
+  background-position: 50% 50%;
 	max-width: 100%;
     height: auto;
     background-position: relative;
@@ -109,43 +113,56 @@ div.gbb_wht_bars_bkg {
     padding-left:	;
     padding-right:	;
     padding-bottom: ;
-    padding-top:  ;
+    padding-top:  ;*/
 
 }
 
-div.good_better_best_bkg {
-	background-image: url("../assets/art_photos/Good_Better_BestFMSG_Artwork.png");
-	background-repeat: no-repeat;
-	/*    background-position: 50% 50%;*/
-	max-width: 100%;
-    height: auto;
-    margin-left:	20%;
-    margin-right:	20%;
-    padding-left:	;
-    padding-right:	;
-    padding-bottom: ;
-    padding-top:  ;
-
+div.GBB_WhiteWood_bkg {
+	align-content: center;
+    background-image: url("../art_photos/GBB_WhiteWood_bkg.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+    background-color: transparent;
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    background-position: center;
 }
+
+div.Oval_WoodGrain_bkg {
+	align-content: center;
+    background-image: url("../art_photos/Oval_WoodGrain_bkg.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+    background-color: transparent;
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+	}
 
 div.make_selection_bkg {
-	background-image: url("../assets/art_photos/Please_Make_A_SelectionFMSG_Artwork.png");
-	background-repeat: no-repeat;
-	/*    background-position: 50% 50%;*/
-	max-width: 100%;
-    height: auto;
-    margin-left:	20%;
-    margin-right:	20%;
-    padding-left:	;
-    padding-right:	;
-    padding-bottom: ;
-    padding-top:  ;
+	align-content: center;
+    background-image: url("../art_photos/Please_WhiteWood_bkg.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+    background-color: transparent;
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    background-position: center;
 
 }
 div.howTo{
     position: absolute;
     left: 0;
-    top: 25%;
+    top: 15%;
     width: 100%;
     text-align: center;
     font-size: 120%;
@@ -156,39 +173,47 @@ div.howTo{
 div.clickOn{
 	position: absolute;
     left: 0;
-    top: 80%;
+    top: 70%;
     width: 100%;
     text-align: center;
     font-size: 120%;
     color: black;
 }
 a {
+	color: #000000;
 	text-decoration: none;
 }
 
-a:link{
-	color: gray;
+a:link {
+	color: #808080;
+	text-decoration: none;
 }
 
 a:hover {
 	color: #FFEE88;
+	text-decoration: none;
 }
 
 a:visited {
-	color: #ff9933;
+	color: #808080;
+	text-decoration: none;
 }
 
 a:active {
-	color:	#75d683;
+	color:	#000000;
+	text-decoration: none;
 }
+/*
 .entrance_orange{
 	color:	orange;
 }
+*/
 
 .entrance {
 	position: absolute;
     left: 20%;
     top: 22%;
+   	text-decoration: none;
 }
 
 .walk_in{
@@ -303,10 +328,12 @@ div.good_category	{
 	text-align: center;
 	font-weight: lighter;
 	font-size:125%;
-	color: #b3b3b3;
-	position: absolute;
-    left: 45%;
-    top: 29%;
+	color: #000000;
+	align-content: center;
+	position: relative;
+	max-width: 100%;
+	top: 15%;
+	text-decoration: none;
 }
 
 div.better_category	{
@@ -314,10 +341,12 @@ div.better_category	{
 	text-align: center;
 	font-weight: normal;
 	font-size:125%;
-	color: #999999;
-	position: absolute;
-    left: 45%;
-    top: 53%;
+	color: #000000;
+	align-content: center;
+	position: relative;
+	max-width: 100%;
+	top:30%;
+	text-decoration: none;
 }
 
 div.best_category {
@@ -325,26 +354,45 @@ div.best_category {
 	text-align: center;
 	font-weight: bold;
 	font-size:125%;
-	color: #666666;
-	position: absolute;
-    left: 45%;
-    top: 80%;
+	color: #000000;
+	align-content: center;
+	position: relative;
+	max-width: 100%;
+	top: 45%;
+	text-decoration: none;
 }
 
+div.best_category_A {
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size:125%;
+	color: #666666;
+	position: absolute;
+    top: 30%;
+    position: relative;
+    max-width: 100%;
+    background-color: transparent;
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    background-position: center;
 
 p {
 	text-align: center;
-	font-size: 36;
+	font-size: 120%;
 }
 
 ul {
 	list-style-type: none;
 	text-align: center;
+	text-decoration: none;
 }
 
 li	{
 
 	text-align: center;
+	text-decoration: none;
 }
 
 .company_address {

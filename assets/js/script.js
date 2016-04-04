@@ -11,16 +11,18 @@ $( document ).ready(function() {
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
   })();
-  /*this is the timed response prompting the user to Please make a selection-->
+  /*this is the timed response prompting the user to Please make a selection-->*/
 
-
+function myFunction() {
+    document.getElementById("area_selector").style.color = "orange";
+}
 
 /*this is where I need to write my if statements for revealing
-information that pops up when a usage area is clicked on*/
+information that pops up when a usage area is clicked on
 function display_usageAreaInfo() {
 
     if (onclick = "entrance"){
-      document.getElementsByTagName(select_entrance);
+      document.getElementsByIdName(select_entrance);
 
     if (onclick = "cashier"){
       document.getElementsByTagName(select_cashier);
@@ -63,7 +65,7 @@ function display_usageAreaInfo() {
                             }
     }
     }
-
+*/
 
 /*this function make the font-size change*/
 function myFunction() {
@@ -76,11 +78,11 @@ function myFunction() {
 /*this section is what changes the size and color of the clicked on word*/
 document.getElementById("area_selector").onclick = function() {myFunction()};
 
-function myFunction() {
+/*function myFunction() {
     document.getElementById("area_selector").innerHTML = "print the list of mats in the space provided under the proper heading - Good Better or Best";
 }
 
-/*
+
   $("#area_selector").click(function(){
     var
   }
