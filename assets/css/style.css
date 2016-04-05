@@ -6,8 +6,6 @@
 body	{
 	font-family: Helvetica, sans-serif;
 	color: #808080;
-
-		
 }
 
 header	{
@@ -377,6 +375,9 @@ div.best_category_A {
     width: 100%;
     height: 600px;
     background-position: center;
+}
+/* --------------------------------------------------------------------------- */
+/* You were missing an ending bracket above, causing the css below to not work */
 
 p {
 	text-align: center;
