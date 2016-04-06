@@ -125,7 +125,7 @@ div.make_selection_bkg {
 div.howTo {
     position: absolute;
     left: 0;
-    top: 15%;
+    top: 8%;
     width: 100%;
     text-align: center;
     font-size: 120%;
@@ -135,7 +135,7 @@ div.howTo {
 div.clickOn {
 	position: absolute;
     left: 0;
-    top: 70%;
+    top: 67%;
     width: 100%;
     text-align: center;
     font-size: 120%;
@@ -263,7 +263,7 @@ div.good_category {
 	font-family: Helvetica, sans-serif;
 	text-align: center;
 	font-weight: lighter;
-	font-size:125%;
+	font-size:160%;
 	color: #000000;
 	align-content: center;
 	position: relative;
@@ -276,12 +276,12 @@ div.better_category	{
 	font-family: Helvetica, sans-serif;
 	text-align: center;
 	font-weight: normal;
-	font-size:125%;
+	font-size:160%;
 	color: #000000;
 	align-content: center;
 	position: relative;
 	max-width: 100%;
-	top:40%;
+	top:18%;
 	text-decoration: none;
 }
 
@@ -289,12 +289,12 @@ div.best_category {
 	font-family: Helvetica, sans-serif;
 	text-align: center;
 	font-weight: bold;
-	font-size:125%;
+	font-size:160%;
 	color: #000000;
 	align-content: center;
 	position: relative;
 	max-width: 100%;
-	top: 40%;
+	top: 27%;
 	text-decoration: none;
 }
 
@@ -302,10 +302,10 @@ div.best_category_A {
 	font-family: Helvetica, sans-serif;
 	text-align: center;
 	font-weight: bold;
-	font-size:125%;
-	color: #666666;
+	font-size:160%;
+	color: #000000;
 	position: absolute;
-    top: 25%;
+    top: 15%;
     position: relative;
     max-width: 100%;
     background-color: transparent;
