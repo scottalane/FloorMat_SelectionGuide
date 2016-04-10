@@ -1,15 +1,15 @@
 body {
 	font-family: Helvetica, sans-serif;
-	color: #808080;
+/*	color: #808080;	*/
 }
 
 header {
 	font-family: 'Roboto Slab', serif;
 	font-size: 400%;
 	font-weight: bolder;
-	color: #000000;
+/*	color: #000000;	*/
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 h1 {
@@ -43,7 +43,7 @@ h4 {
 	text-align: center;
 	font-weight:lighter;
 	font-size: 175%;
-	color: #ff0000;
+/*	color: #ff0000;	*/
 	padding-top: 0px;
 	margin: 0px;
 }
@@ -144,34 +144,36 @@ div.clickOn {
 
 a {
 	color: #000000;
-	text-decoration: none;
 }
 
 a:link {
 	color: #808080;
-	text-decoration: none;
 }
 
 a:visited {
-	color: #808080;
-	text-decoration: none;
+	color: #808080 ;
 }
 
 a:hover {
 	color: #FFEE88;
-	text-decoration: none;
 }
 
 a:active {
-	color:	#808080;
-	text-decoration: none;
+	color:	#ff9900;
 }
 
 .entrance {
 	position: absolute;
     left: 20%;
     top: 22%;
-   	text-decoration: none;
+}
+
+.entrance_large {
+	position: absolute;
+    left: 20%;
+    top: 20%;
+    color:  #ff9900;
+    font-size: 200%;
 }
 
 .walk_in {
@@ -180,10 +182,34 @@ a:active {
     top: 22%;
 }
 
+.walk_in_large {
+	position: absolute;
+    left: 70%;
+    top: 20%;
+    color:  #ff9900;
+    font-size: 190%;
+}
+
+.walk_in_dimmed {
+	position: absolute;
+    left: 70%;
+    top: 20%;
+    color:  #cccccc;
+}
+
 .cashier {
 	position: absolute;
     left: 19%;
     top: 33%;
+}
+
+.cashier_large {
+	position: absolute;
+    left: 19%;
+    top: 33%;
+    color:  #ff9900;
+    font-size: 175%;
+   	text-decoration: none;
 }
 
 .transition_area {
@@ -192,10 +218,28 @@ a:active {
     top: 32%;
 }
 
+.transition_area_large {
+	position: absolute;
+    left: 76%;
+    top: 32%;
+    color:  #ff9900;
+    font-size: 175%;
+   	text-decoration: none;
+}
+
 .prep_area {
 	position: absolute;
     left: 13%;
     top: 44%;
+}
+
+.prep_area_large {
+	position: absolute;
+    left: 13%;
+    top: 44%;
+    color:  #ff9900;
+    font-size: 175%;
+   	text-decoration: none;
 }
 
 .waitress {
@@ -204,23 +248,41 @@ a:active {
     top: 44%;
 }
 
+.waitress_large {
+	position: absolute;
+    left: 79%;
+    top: 44%;
+    color:  #ff9900;
+    font-size: 175%;
+   	text-decoration: none;
+}
+
 .bar {
 	position: absolute;
     left: 16%;
     top: 58%;
 }
 
-.barLarge {
-	color: orange
-	font-size: 300%;
+.bar_large {
+	color: #ff9900;
+	font-size: 175%;
 	position: absolute;
     left: 16%;
     top: 58%;
 }
+
 .restrooms {
 	position: absolute;
     left: 81%;
     top: 58%;
+}
+
+.restrooms_large {
+	position: absolute;
+    left: 81%;
+    top: 58%;
+    color:  #ff9900;
+    font-size: 175%;
 }
 
 .cookline {
@@ -229,10 +291,26 @@ a:active {
     top: 70%;
 }
 
+.cookline_large {
+	position: absolute;
+    left: 14%;
+    top: 70%;
+    color:  #ff9900;
+    font-size: 175%;
+}
+
 .transport_mat {
 	position: absolute;
     left: 79%;
     top: 71%;	
+}
+
+.transport_mat_large {
+	position: absolute;
+    left: 79%;
+    top: 71%;
+    color:  #ff9900;
+    font-size: 175%;
 }
 
 .dishwash_area {
@@ -241,10 +319,25 @@ a:active {
     top: 80%;
 }
 
+.dishwash_area_large {
+	position: absolute;
+    left: 12%;
+    top: 80%;
+    color:  #ff9900;
+    font-size: 175%;
+}
+
 .rubber_mats {
 	position: absolute;
     left: 75%;
     top: 82%;
+}
+.rubber_mats_large {
+	position: absolute;
+    left: 75%;
+    top: 78%;
+    color:  #ff9900;
+    font-size: 175%;
 }
 
 .salad_bar {
@@ -253,10 +346,26 @@ a:active {
     top: 90%;
 }
 
+.salad_bar_large {
+	position: absolute;
+    left: 15%;
+    top: 90%;
+    color:  #ff9900;
+    font-size: 175%;
+}
+
 .carpet_mats {
 	position: absolute;
     left: 70%;
     top: 91%;
+}
+
+.carpet_mats_large {
+	position: absolute;
+    left: 70%;
+    top: 91%;
+    color:  #ff9900;
+    font-size: 175%;
 }
 
 div.good_category {
@@ -315,6 +424,9 @@ div.best_category_A {
     background-position: center;
 }
 
+changeColor {
+color: #808080;
+}
 p {
 	text-align: center;
 	font-size: 120%;
