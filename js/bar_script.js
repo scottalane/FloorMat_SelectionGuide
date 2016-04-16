@@ -14,26 +14,14 @@ $( document ).ready(function() {
   
   })();
 
-
+//to show the lightbox pictures of products
 function myFunction() {
-    //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window");
+    var lb = document.getElementById("lightbox_window_a");
     lb.hidden = true;
     lb.onclick = HideLightBox;
 
-    var topdeckJr = document.getElementById("topdekJrBlack");
-    topdeckJr.onclick = ShowLightBox;
-
-}
-
-function myFunction() {
-    //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window");
-    lb.hidden = true;
-    lb.onclick = HideLightBox;
-
-    var primaBlack = document.getElementById("primaBlack");
-    primaBlack.onclick = ShowLightBox;
+    var topdekJrBlack = document.getElementById("topdekJrBlack");
+    topdekJrBlack.onclick = ShowLightBox;
 
 }
 
@@ -43,7 +31,31 @@ function ShowLightBox(){
     //lb.hidden = false;
 
     //jquery way
-    $('#lightbox_window').fadeIn(500);
+    $('#lightbox_window_a').fadeIn(500);
+
+  }
+
+  function HideLightBox(){
+
+    var result = prompt("Would you like to send this to a customer?");
+    
+    $('#lightbox_window_a').fadeOut(500);
+
+  }
+//scott 4/12 functions for additional lightbox effects
+function myFunction() {
+    var lb = document.getElementById("lightbox_window_b");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var primablack = document.getElementById("primaBlack");
+    primaBlack.onclick = ShowLightBox;
+
+}
+
+function ShowLightBox(){
+
+    $('#lightbox_window_b').fadeIn(500);
 
   }
 
@@ -51,11 +63,114 @@ function ShowLightBox(){
 
     var result = prompt("Enter your email below");
     
-    $('#lightbox_window').fadeOut(500);
+    $('#lightbox_window_b').fadeOut(500);
 
   }
 
+    function myFunction() {
+    var lb = document.getElementById("lightbox_window_c");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var topdekSrBlack = document.getElementById("topdekSrBlack");
+    topdekSrBlack.onclick = ShowLightBox;
+
+}
+
+
+function ShowLightBox(){
+
+    $('#lightbox_window_c').fadeIn(500);
+
+  }
+
+  function HideLightBox(){
+
+    var result = prompt("Enter your email below");
     
+    $('#lightbox_window_c').fadeOut(500);
+
+  }
+
+function myFunction() {
+    var lb = document.getElementById("lightbox_window_d");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var liteBlack = document.getElementById("liteBlack");
+    liteBlack.onclick = ShowLightBox;
+
+}
+
+
+function ShowLightBox(){
+
+    $('#lightbox_window_d').fadeIn(500);
+
+  }
+
+  function HideLightBox(){
+
+    var result = prompt("Enter your email below");
+    
+    $('#lightbox_window_d').fadeOut(500);
+
+  }
+
+function myFunction() {
+    var lb = document.getElementById("lightbox_window_e");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var tuffdekBlack = document.getElementById("tuffdekBlack");
+    tuffdekBlack.onclick = ShowLightBox;
+
+}
+
+function myFunction() {
+    //alert("I am now in JS land. Code me up!");
+    var lb = document.getElementById("lightbox_window_f");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var guardianBlack = document.getElementById("guardianBlack");
+    guardianBlack.onclick = ShowLightBox;
+
+}
+
+function myFunction() {
+    //alert("I am now in JS land. Code me up!");
+    var lb = document.getElementById("lightbox_window_g");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var cloudBlack = document.getElementById("cloudBlack");
+    cloudBlack.onclick = ShowLightBox;
+
+}
+
+function myFunction() {
+    //alert("I am now in JS land. Code me up!");
+    var lb = document.getElementById("lightbox_window_h");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var deluxeBlack = document.getElementById("deluxeBlack");
+    deluxeBlack.onclick = ShowLightBox;
+
+}
+
+function myFunction() {
+    //alert("I am now in JS land. Code me up!");
+    var lb = document.getElementById("lightbox_window_i");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var duralokBlack = document.getElementById("duralokBlack");
+    duralokBlack.onclick = ShowLightBox;
+
+}
+
 /*this section is what changes the size and color of the clicked on word*/
 document.getElementById("area_selector").onclick = function() {myFunction()};
 

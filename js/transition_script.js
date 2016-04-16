@@ -13,82 +13,16 @@ $( document ).ready(function() {
     myFunction();
   
   })();
-  /*this is the timed response prompting the user to Please make a selection-->*/
+
 
 function myFunction() {
     //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_j");
+    var lb = document.getElementById("lightbox_window_nn");
     lb.hidden = true;
     lb.onclick = HideLightBox;
 
-    var tuffdekRed = document.getElementById("tuffdekRed");
-    tuffdekRed.onclick = ShowLightBox;
-
-}
-
-function myFunction() {
-    //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_k");
-    lb.hidden = true;
-    lb.onclick = HideLightBox;
-
-    var duralokRed = document.getElementById("duralokRed");
-    duralokRed.onclick = ShowLightBox;
-
-}
-
-function myFunction() {
-    //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_l");
-    lb.hidden = true;
-    lb.onclick = HideLightBox;
-
-    var guardianRed = document.getElementById("guardianRed");
-    guardianRed.onclick = ShowLightBox;
-
-}
-
-function myFunction() {
-    //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_f");
-    lb.hidden = true;
-    lb.onclick = HideLightBox;
-
-    var tGuardianBlack = document.getElementById("guardianBlack");
-    guardianBlack.onclick = ShowLightBox;
-
-}
-
-function myFunction() {
-    //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_m");
-    lb.hidden = true;
-    lb.onclick = HideLightBox;
-
-    var deluxeRed = document.getElementById("deluxeRed");
-    deluxeRed.onclick = ShowLightBox;
-
-}
-
-function myFunction() {
-    //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_n");
-    lb.hidden = true;
-    lb.onclick = HideLightBox;
-
-    var cloudRed = document.getElementById("cloudRed");
-    cloudRed.onclick = ShowLightBox;
-
-}
-
-function myFunction() {
-    //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_g");
-    lb.hidden = true;
-    lb.onclick = HideLightBox;
-
-    var cloudBlack = document.getElementById("cloudBlack");
-    cloudBlack.onclick = ShowLightBox;
+    var catalinaStandard = document.getElementById("catalinaStandard");
+    catalinaStandard.onclick = ShowLightBox;
 
 }
 
@@ -109,8 +43,72 @@ function ShowLightBox(){
     $('#lightbox_window').fadeOut(500);
 
   }
+//scott 4/12 functions for additional lightbox effects
+function myFunction() {
+    var lb = document.getElementById("lightbox_window_b");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
 
+    var primablack = document.getElementById("primaBlack");
+    primaBlack.onclick = ShowLightBox;
+
+}
     
+    function myFunction() {
+    //alert("I am now in JS land. Code me up!");
+    var lb = document.getElementById("lightbox_window_oo");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var catalinaPremium = document.getElementById("catalinaPremium");
+    catalinaPremium.onclick = ShowLightBox;
+
+}
+
+function myFunction() {
+    //alert("I am now in JS land. Code me up!");
+    var lb = document.getElementById("lightbox_window_pp");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var tuffPlush = document.getElementById("tuffPlush");
+    tuffPlush.onclick = ShowLightBox;
+
+}
+
+function myFunction() {
+    //alert("I am now in JS land. Code me up!");
+    var lb = document.getElementById("lightbox_window_q");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var needleRib = document.getElementById("needleRib");
+    needleRib.onclick = ShowLightBox;
+
+}
+
+function myFunction() {
+    //alert("I am now in JS land. Code me up!");
+    var lb = document.getElementById("lightbox_window_s");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var chevronRib = document.getElementById("chevronRib");
+    chevronRib.onclick = ShowLightBox;
+
+}
+
+function myFunction() {
+    //alert("I am now in JS land. Code me up!");
+    var lb = document.getElementById("lightbox_window_t");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var machineWashable = document.getElementById("machineWashable");
+    machineWashable.onclick = ShowLightBox;
+
+}
+
 /*this section is what changes the size and color of the clicked on word*/
 document.getElementById("area_selector").onclick = function() {myFunction()};
 
@@ -120,3 +118,5 @@ document.getElementById("area_selector").onclick = function() {myFunction()};
      $(this).append( '<img class="thanks_img" src="assets/ThankYou_Locate_A_Rep_WhtBkg.png">' );
   });
 });
+
+
