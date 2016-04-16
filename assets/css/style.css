@@ -431,9 +431,6 @@ div.best_category_A {
     background-position: center;
 }
 
-changeColor {
-color: #808080;
-}
 p {
 	text-align: center;
 	font-size: 120%;
@@ -467,10 +464,10 @@ li {
 	padding-left: 18%;
 }
 
-#lightbox_window{
+#lightbox_window_a{
 	width:1021px;
 	height:706px;
-	background-image: url("../../assets/art_photos/GuidePics/Guide_TopdekJR.jpg");
+	background-image: url("../../assets/art_photos/GuidePics/Guide_TopdekJR_Blk.jpg");
 	position:absolute;
 	top:0%;
 	right:0%
@@ -478,7 +475,7 @@ li {
 	z-index: 99;
 }
 
-#lightbox_window{
+#lightbox_window_b{
 	width:1021px;
 	height:706px;
 	background-image: url("../../assets/art_photos/GuidePics/Guide_Prima_Blk.jpg");
@@ -489,7 +486,7 @@ li {
 	z-index: 99;
 }
 
-#lightbox_window{
+#lightbox_window_c{
 	width:1021px;
 	height:706px;
 	background-image: url("../../assets/art_photos/GuidePics/Guide_TopdekSr_Blk.jpg");
@@ -500,7 +497,7 @@ li {
 	z-index: 99;
 }
 
-#lightbox_window{
+#lightbox_window_d{
 	width:1021px;
 	height:706px;
 	background-image: url("../../assets/art_photos/GuidePics/Guide_Lite_Blk.jpg");
@@ -511,7 +508,7 @@ li {
 	z-index: 99;
 }
 
-#lightbox_window{
+#lightbox_window_e{
 	width:1021px;
 	height:706px;
 	background-image: url("../../assets/art_photos/GuidePics/Guide_Tuffdek_Blk.jpg");
@@ -522,7 +519,7 @@ li {
 	z-index: 99;
 }
 
-#lightbox_window{
+#lightbox_window_f{
 	width:1021px;
 	height:706px;
 	background-image: url("../../assets/art_photos/GuidePics/Guide_Guardian_Blk.jpg");
@@ -533,7 +530,7 @@ li {
 	z-index: 99;
 }
 
-#lightbox_window{
+#lightbox_window_g{
 	width:1021px;
 	height:706px;
 	background-image: url("../../assets/art_photos/GuidePics/Guide_BlackCloud.jpg");
@@ -544,7 +541,7 @@ li {
 	z-index: 99;
 }
 
-#lightbox_window{
+#lightbox_window_h{
 	width:1021px;
 	height:706px;
 	background-image: url("../../assets/art_photos/GuidePics/Guide_Deluxe_Blk.jpg");
@@ -555,7 +552,7 @@ li {
 	z-index: 99;
 }
 
-#lightbox_window{
+#lightbox_window_i{
 	width:1021px;
 	height:706px;
 	background-image: url("../../assets/art_photos/GuidePics/Guide_Duralok_Blk.jpg");
@@ -566,7 +563,7 @@ li {
 	z-index: 99;
 }
 
-#lightbox_window{
+#lightbox_window_j{
 	width:1021px;
 	height:706px;
 	background-image: url("../../assets/art_photos/GuidePics/Guide_Tuffdek_Red.jpg");
@@ -577,7 +574,7 @@ li {
 	z-index: 99;
 }
 
-#lightbox_window{
+#lightbox_window_k{
 	width:1021px;
 	height:706px;
 	background-image: url("../../assets/art_photos/GuidePics/Guide_Duralok_Red.jpg");
@@ -588,7 +585,7 @@ li {
 	z-index: 99;
 }
 
-#lightbox_window{
+#lightbox_window_l{
 	width:1021px;
 	height:706px;
 	background-image: url("../../assets/art_photos/GuidePics/Guide_Guardian_Red.jpg");
@@ -599,7 +596,7 @@ li {
 	z-index: 99;
 }
 
-#lightbox_window{
+#lightbox_window_m{
 	width:1021px;
 	height:706px;
 	background-image: url("../../assets/art_photos/GuidePics/Guide_Deluxe_Red.jpg");
@@ -610,7 +607,7 @@ li {
 	z-index: 99;
 }
 
-#lightbox_window{
+#lightbox_window_n{
 	width:1021px;
 	height:706px;
 	background-image: url("../../assets/art_photos/GuidePics/Guide_Cloud_Red.jpg");
@@ -621,6 +618,388 @@ li {
 	z-index: 99;
 }
 
+#lightbox_window_o{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Catalina.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_p{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Fingertop.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_q{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Needle_Rib.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_r{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Waterwell.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_s{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Chevron_Rib.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_t{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Machine_Washable.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_u{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Digi_Print.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_v{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Ridge_Scraper.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_w{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Camino_Real_Logo.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_x{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Cocoa_Brush.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_y{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_TBA.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_z{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Tredlite_Sponge.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_aa{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Bubble_Eze.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_bb{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Comfort_Zone.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_cc{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Cushion_Comfort.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_dd{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Topdek_Sr_Red.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_ee{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Topdek_Jr_Red.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_ff{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Revers_A_Mat_Red.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_gg{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Revers_A_Mat_Black.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_hh{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Ni_Rib_Perforated.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_ii{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Honeycomb_Brown.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+#lightbox_window_jj{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Revers_A_Mat.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_kk{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Ni_Rib.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_ll{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Vinyl_Loop.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_mm{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Slip_Guard.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+#lightbox_window_nn{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Catalina_Standard.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_oo{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Catalina_Premium.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_pp{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Tuff_Plush.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_qq{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Ni_Rib_Solid.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_rr{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_SaniMate.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_ss{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Transporter_Wash_Rack.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_tt{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Cleaning_Supplies_1.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_uu{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_Cleaning_Supplies_2.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_TBA.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
+
+#lightbox_window_{
+	width:1021px;
+	height:706px;
+	background-image: url("../../assets/art_photos/GuidePics/Guide_TBA.jpg");
+	position:absolute;
+	top:0%;
+	right:0%
+	margin: 0 auto;
+	z-index: 99;
+}
 #topdekJrBlack{
 	color: red;
 	cursor: pointer;
@@ -630,20 +1009,38 @@ li {
 	cursor: pointer;
 }
 
-#primaBlack{
-	color: red;
-	cursor: pointer;
-}
-#primaBlack:hover{
-	color: yellow;
-	cursor: pointer;
-}
-
 #topdekSrBlack{
 	color: red;
 	cursor: pointer;
 }
 #topdekSrBlack:hover{
+	color: yellow;
+	cursor: pointer;
+}
+
+#topdekJrRed{
+	color: red;
+	cursor: pointer;
+}
+#topdekJrRed:hover{
+	color: yellow;
+	cursor: pointer;
+}
+
+#topdekSrRed{
+	color: red;
+	cursor: pointer;
+}
+#topdekSrRed:hover{
+	color: yellow;
+	cursor: pointer;
+}
+
+#primaBlack{
+	color: red;
+	cursor: pointer;
+}
+#primaBlack:hover{
 	color: yellow;
 	cursor: pointer;
 }
@@ -873,6 +1270,15 @@ li {
 	cursor: pointer;
 }
 
+#reversAMat{
+	color: red;
+	cursor: pointer;
+}
+#reverseAMat:hover{
+	color: yellow;
+	cursor: pointer;
+}
+
 #reversAMatRed{
 	color: red;
 	cursor: pointer;
@@ -887,6 +1293,24 @@ li {
 	cursor: pointer;
 }
 #reversAMatBlack:hover{
+	color: yellow;
+	cursor: pointer;
+}
+
+#niRib{
+	color: red;
+	cursor: pointer;
+}
+#niRib:hover{
+	color: yellow;
+	cursor: pointer;
+}
+
+#niRibSolid{
+	color: red;
+	cursor: pointer;
+}
+#niRibSolid:hover{
 	color: yellow;
 	cursor: pointer;
 }
@@ -950,16 +1374,6 @@ li {
 	cursor: pointer;
 }
 #tufPlush:hover{
-	color: yellow;
-	cursor: pointer;
-}
-
-
-#niRibSolid{
-	color: red;
-	cursor: pointer;
-}
-#niRibSolid:hover{
 	color: yellow;
 	cursor: pointer;
 }
