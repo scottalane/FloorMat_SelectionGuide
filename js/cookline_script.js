@@ -92,6 +92,16 @@ function myFunction() {
 
 }
 
+function myFunction() {
+    //alert("I am now in JS land. Code me up!");
+    var lb = document.getElementById("lightbox_window_j");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var tuffdekRed = document.getElementById("tuffdekRed");
+    tuffdekRed.onclick = ShowLightBox;
+
+}
 function ShowLightBox(){
   //javascript way
     //var lb = document.getElementById("lightbox_window");
