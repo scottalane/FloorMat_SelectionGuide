@@ -12,6 +12,18 @@ $( document ).ready(function() {
     s.parentNode.insertBefore(wf, s);
     myFunction();
   
+    myFunction_catalina();
+    myFunction_fingertop();
+    myFunction_needle_rib();
+
+    myFunction_waterwell();
+    myFunction_chevron_rib();
+    myFunction_machine_washable();
+    myFunction_digi_print()
+
+    myFunction_ridge_scraper();
+    myFunction_camino_real_logo();
+    myFunction_cocoa_brush();
   })();
 
 

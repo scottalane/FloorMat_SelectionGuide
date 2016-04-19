@@ -12,26 +12,25 @@ $( document ).ready(function() {
     s.parentNode.insertBefore(wf, s);
     myFunction();
 
-    myFunction_tredlite_sponge();
-    myFunction_bubble_eze();
+    myFunction_catatina_standard();
 
-    myFunction_comfort_zone();
-    myFunction_fingertop();
+    myFunction_catalina_premium();
+    myFunction_tuff_plush();
 
-    myFunction_cloud_black();
-    myFunction_cushion_comfort();
-
+    myFunction_needle_rib();
+    myFunction_chevron_rib();
+    myFunction_machine_washable();
   })();
 
 
 function myFunction() {
     //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_z");
+    var lb = document.getElementById("lightbox_window_nn");
     lb.hidden = true;
     lb.onclick = HideLightBox;
 
-    var tredLiteSponge = document.getElementById("tredLiteSponge");
-    tredLiteSponge.onclick = ShowLightBox;
+    var catalinaStandard = document.getElementById("catalinaStandard");
+    catalinaStandard.onclick = ShowLightBox;
 
 }
 
@@ -54,67 +53,67 @@ function ShowLightBox(){
   }
 //scott 4/12 functions for additional lightbox effects
 function myFunction() {
-    var lb = document.getElementById("lightbox_window_aa");
+    var lb = document.getElementById("lightbox_window_b");
     lb.hidden = true;
     lb.onclick = HideLightBox;
 
-    var bubbleEze = document.getElementById("bubbleEze");
-    bubbleEze.onclick = ShowLightBox;
+    var primablack = document.getElementById("primaBlack");
+    primaBlack.onclick = ShowLightBox;
 
 }
     
     function myFunction() {
     //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_bb");
+    var lb = document.getElementById("lightbox_window_oo");
     lb.hidden = true;
     lb.onclick = HideLightBox;
 
-    var comfortZone = document.getElementById("comfortZone");
-    comfortZone.onclick = ShowLightBox;
+    var catalinaPremium = document.getElementById("catalinaPremium");
+    catalinaPremium.onclick = ShowLightBox;
 
 }
 
 function myFunction() {
     //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_d");
+    var lb = document.getElementById("lightbox_window_pp");
     lb.hidden = true;
     lb.onclick = HideLightBox;
 
-    var liteBlack = document.getElementById("liteJrBlack");
-    liteJrBlack.onclick = ShowLightBox;
+    var tuffPlush = document.getElementById("tuffPlush");
+    tuffPlush.onclick = ShowLightBox;
 
 }
 
 function myFunction() {
     //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_p");
+    var lb = document.getElementById("lightbox_window_q");
     lb.hidden = true;
     lb.onclick = HideLightBox;
 
-    var fingertop = document.getElementById("fingertop");
-    fingertop.onclick = ShowLightBox;
+    var needleRib = document.getElementById("needleRib");
+    needleRib.onclick = ShowLightBox;
 
 }
 
 function myFunction() {
     //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_g");
+    var lb = document.getElementById("lightbox_window_s");
     lb.hidden = true;
     lb.onclick = HideLightBox;
 
-    var cloudBlack = document.getElementById("cloudBlack");
-    cloudBlack.onclick = ShowLightBox;
+    var chevronRib = document.getElementById("chevronRib");
+    chevronRib.onclick = ShowLightBox;
 
 }
 
 function myFunction() {
     //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_cc");
+    var lb = document.getElementById("lightbox_window_t");
     lb.hidden = true;
     lb.onclick = HideLightBox;
 
-    var cushionComfort = document.getElementById("cushionComfort");
-    cushionComfort.onclick = ShowLightBox;
+    var machineWashable = document.getElementById("machineWashable");
+    machineWashable.onclick = ShowLightBox;
 
 }
 

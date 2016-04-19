@@ -12,6 +12,18 @@ $( document ).ready(function() {
     s.parentNode.insertBefore(wf, s);
     myFunction();
   
+      //set up the plumbing for each line
+    myFunction_revers_a_mat_black();
+    myFunction_ni_rib_perforated();
+    myFunction_topdek_jr_black();
+
+    myFunction_honeycomb_brown();
+    myFunction_topdek_sr_black();
+    myFunction_tuffdek_black();
+
+    myFunction_deluxe_black();
+    myFunction_duralok_black();
+    myFunction_guardian_black();
   })();
 
 

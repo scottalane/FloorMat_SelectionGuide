@@ -12,26 +12,29 @@ $( document ).ready(function() {
     s.parentNode.insertBefore(wf, s);
     myFunction();
 
-    myFunction_tredlite_sponge();
-    myFunction_bubble_eze();
+      //set up the plumbing for each line
+    myFunction_revers_a_mat();
+    myFunction_ni_rib();
+    myFunction_waterwell();
 
-    myFunction_comfort_zone();
     myFunction_fingertop();
+    myFunction_vinyl_loop();
 
-    myFunction_cloud_black();
-    myFunction_cushion_comfort();
+    myFunction_guardian_black();
+    myFunction_guardian_red();
+    myFunction_ridge_scraper();
 
   })();
 
 
 function myFunction() {
     //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_z");
+    var lb = document.getElementById("lightbox_window_jj");
     lb.hidden = true;
     lb.onclick = HideLightBox;
 
-    var tredLiteSponge = document.getElementById("tredLiteSponge");
-    tredLiteSponge.onclick = ShowLightBox;
+    var reversAMat = document.getElementById("reversAMat");
+    reversAMat.onclick = ShowLightBox;
 
 }
 
@@ -54,34 +57,23 @@ function ShowLightBox(){
   }
 //scott 4/12 functions for additional lightbox effects
 function myFunction() {
-    var lb = document.getElementById("lightbox_window_aa");
+    var lb = document.getElementById("lightbox_window_kk");
     lb.hidden = true;
     lb.onclick = HideLightBox;
 
-    var bubbleEze = document.getElementById("bubbleEze");
-    bubbleEze.onclick = ShowLightBox;
+    var niRib = document.getElementById("niRib");
+    niRib.onclick = ShowLightBox;
 
 }
     
     function myFunction() {
     //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_bb");
+    var lb = document.getElementById("lightbox_window_r");
     lb.hidden = true;
     lb.onclick = HideLightBox;
 
-    var comfortZone = document.getElementById("comfortZone");
-    comfortZone.onclick = ShowLightBox;
-
-}
-
-function myFunction() {
-    //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_d");
-    lb.hidden = true;
-    lb.onclick = HideLightBox;
-
-    var liteBlack = document.getElementById("liteJrBlack");
-    liteJrBlack.onclick = ShowLightBox;
+    var waterwell = document.getElementById("waterwell");
+    waterwell.onclick = ShowLightBox;
 
 }
 
@@ -98,23 +90,45 @@ function myFunction() {
 
 function myFunction() {
     //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_g");
+    var lb = document.getElementById("lightbox_window_ll");
     lb.hidden = true;
     lb.onclick = HideLightBox;
 
-    var cloudBlack = document.getElementById("cloudBlack");
-    cloudBlack.onclick = ShowLightBox;
+    var vinylLoop = document.getElementById("vinylLoop");
+    vinylLoop.onclick = ShowLightBox;
 
 }
 
 function myFunction() {
     //alert("I am now in JS land. Code me up!");
-    var lb = document.getElementById("lightbox_window_cc");
+    var lb = document.getElementById("lightbox_window_f");
     lb.hidden = true;
     lb.onclick = HideLightBox;
 
-    var cushionComfort = document.getElementById("cushionComfort");
-    cushionComfort.onclick = ShowLightBox;
+    var guardianBlack = document.getElementById("guardianBlack");
+    guardianBlack.onclick = ShowLightBox;
+
+}
+
+function myFunction() {
+    //alert("I am now in JS land. Code me up!");
+    var lb = document.getElementById("lightbox_window_l");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var guardianRed = document.getElementById("guardianRed");
+    guardianRed.onclick = ShowLightBox;
+
+}
+
+function myFunction() {
+    //alert("I am now in JS land. Code me up!");
+    var lb = document.getElementById("lightbox_window_v");
+    lb.hidden = true;
+    lb.onclick = HideLightBox;
+
+    var ridgeScraper = document.getElementById("ridgeScraper");
+    ridgeScraper.onclick = ShowLightBox;
 
 }
 

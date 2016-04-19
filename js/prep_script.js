@@ -11,7 +11,19 @@ $( document ).ready(function() {
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
     myFunction();
-  
+
+    myFunction_topdek_sr_red();
+    myFunction_topdek_jr_red();
+    myFunction_revers_a_mat_red();
+
+    myFunction_guardian_red();;
+    myFunction_guardian_black();
+    myFunction_tuffdek_red();
+
+    myFunction_deluxe_red();
+    myFunction_cloud_red();
+    myFunction_cloud_black();
+
   })();
 
 

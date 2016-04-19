@@ -14,10 +14,12 @@ $( document ).ready(function() {
     //set up the plumbing for each line
     myFunction_topdek_jr_black();
     myFunction_prima_black();
-    myFunction_topdek_jr_black();
+    myFunction_topdek_sr_black();
+
     myFunction_lite_black();
     myFunction_tuffdek_black();
     myFunction_guardian_black();
+    
     myFunction_cloud_black();
     myFunction_deluxe_black();
     myFunction_duralock_black();
@@ -61,13 +63,12 @@ function myFunction_topdek_jr_black() {
     lb.hidden = true;
     lb.onclick = function(){
 
-        //var result = prompt("Enter your email below");
         
         $('#lightbox_window_a').fadeOut(500);
 
     };
 
-    var topdekJrBlack = document.getElementById("topdekJrBlack");
+var topdekJrBlack = document.getElementById("topdekJrBlack");
     topdekJrBlack.onclick = function (){
 
           $('#lightbox_window_a').fadeIn(500);
@@ -76,9 +77,22 @@ function myFunction_topdek_jr_black() {
 
 }
 
+function ShowLightBox(){
+
+    $('#lightbox_window_a').fadeIn(500);
+
+  }
+
+  function HideLightBox(){
+
+    //var result = prompt("Enter your email below");
+    
+    $('#lightbox_window_a').fadeOut(500);
+
+  }
+
 // VIP PRIMA - BLACK SHOW & HIDE
 function myFunction_prima_black() {
-    //alert("I am now in JS land. Code me up!");
     var lb = document.getElementById("lightbox_window_b");
     lb.hidden = true;
     lb.onclick = function (){
@@ -95,6 +109,20 @@ function myFunction_prima_black() {
     };
 
 }
+
+function ShowLightBox(){
+
+    $('#lightbox_window_b').fadeIn(500);
+
+  }
+
+  function HideLightBox(){
+
+    //var result = prompt("Enter your email below");
+    
+    $('#lightbox_window_b').fadeOut(500);
+
+  }
 
 // VIP TOPDEK SR BLACK - SHOW & HIDE
 function myFunction_topdek_sr_black() {
@@ -114,7 +142,7 @@ function myFunction_topdek_sr_black() {
     };
 
 }
-/*
+
 function ShowLightBox(){
 
     $('#lightbox_window_c').fadeIn(500);
@@ -128,7 +156,7 @@ function ShowLightBox(){
     $('#lightbox_window_c').fadeOut(500);
 
   }
-*/
+
 
 // VIP LITE BLACK - SHOW & HIDE
 function myFunction_lite_black() {
@@ -149,6 +177,20 @@ function myFunction_lite_black() {
 
 }
 
+function ShowLightBox(){
+
+    $('#lightbox_window_d').fadeIn(500);
+
+  }
+
+  function HideLightBox(){
+
+    //var result = prompt("Enter your email below");
+    
+    $('#lightbox_window_d').fadeOut(500);
+
+  }
+
 // VIP TUFFDEK BLACK - SHOW & HIDE
 function myFunction_tuffdek_black() {
     var lb = document.getElementById("lightbox_window_e");
@@ -167,6 +209,20 @@ function myFunction_tuffdek_black() {
     };
 
 }
+
+function ShowLightBox(){
+
+    $('#lightbox_window_e').fadeIn(500);
+
+  }
+
+  function HideLightBox(){
+
+    //var result = prompt("Enter your email below");
+    
+    $('#lightbox_window_e').fadeOut(500);
+
+  }
 
 // VIP GUARDIAN BLACK - SHOW & HIDE
 function myFunction_guardian_black() {
@@ -187,6 +243,20 @@ function myFunction_guardian_black() {
 
 }
 
+function ShowLightBox(){
+
+    $('#lightbox_window_f').fadeIn(500);
+
+  }
+
+  function HideLightBox(){
+
+    //var result = prompt("Enter your email below");
+    
+    $('#lightbox_window_f').fadeOut(500);
+
+  }
+
 // VIP BLACK CLOUD BLACK - SHOW & HIDE
 function myFunction_cloud_black() {
     var lb = document.getElementById("lightbox_window_g");
@@ -205,6 +275,20 @@ function myFunction_cloud_black() {
     };
 
 }
+
+function ShowLightBox(){
+
+    $('#lightbox_window_g').fadeIn(500);
+
+  }
+
+  function HideLightBox(){
+
+    //var result = prompt("Enter your email below");
+    
+    $('#lightbox_window_g').fadeOut(500);
+
+  }
 
 // VIP DELUXE BLACK - SHOW & HIDE
 function myFunction_deluxe_black() {
@@ -225,8 +309,30 @@ function myFunction_deluxe_black() {
 
 }
 
+function ShowLightBox(){
+
+    $('#lightbox_window_h').fadeIn(500);
+
+  }
+
+  function HideLightBox(){
+
+    //var result = prompt("Enter your email below");
+    
+    $('#lightbox_window_h').fadeOut(500);
+
+  }
+
 // VIP DURALOK BLACK - SHOW & HIDE
 function myFunction_duralock_black() {
+    
+    var duralokBlack = document.getElementById("duralokBlack");
+    duralokBlack.onclick = function (){
+
+          $('#lightbox_window_i').fadeIn(500);
+
+    };
+
     var lb = document.getElementById("lightbox_window_i");
     lb.hidden = true;
     lb.onclick = function(){
@@ -235,19 +341,11 @@ function myFunction_duralock_black() {
 
     };
 
-    var duralokBlack = document.getElementById("duralokBlack");
-    duralokBlack.onclick = function (){
-
-          $('#lightbox_window_i').fadeIn(500);
-
-    };
-
 }
-/*
 
 function ShowLightBox(){
 
-    $('#lightbox_window_b').fadeIn(500);
+    $('#lightbox_window_i').fadeIn(500);
 
   }
 
@@ -255,11 +353,10 @@ function ShowLightBox(){
 
     var result = prompt("Enter your email below");
     
-    $('#lightbox_window_b').fadeOut(500);
+    $('#lightbox_window_i').fadeOut(500);
 
   }
 
-*/
 /*this section is what changes the size and color of the clicked on word*/
 document.getElementById("area_selector").onclick = function() {myFunction()};
 
