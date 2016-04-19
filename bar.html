@@ -6,6 +6,7 @@
 		<meta name="author" content="Scott A Lane">
 		<title>Cactus Mat / Floor Mat Selector Guide></title>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/lightbox.css" />
 	</head>
 <body>
 	<header><a href="index.html">FLOOR MAT</a></header>
@@ -26,7 +27,9 @@
 <!-- BETTER BETTER BETTER BETTER BETTER BETTER BETTER BETTER BETTER-->					
 		<div class="better_category">
 			<ul id="selector_bar">
-					<li id="liteBlack">VIP Lite - Black</li>
+					<li id="liteBlack">
+						<a href="assets/art_photos/GuidePics/Guide_Lite_Blk.jpg" data-lightbox="Guide_Lite_Blk.jpg" data-title="This is a Light Black Guide">VIP Tuffdek - Light Black</a>
+					</li>
 					<li id="tuffdekBlack">VIP Tuffdek - Black</li>
 					<li id="guardianBlack">VIP Guardian - Black</li>
 					<li><br></li>
@@ -42,17 +45,6 @@
 		</div>
 
 	</div>
-	<div id="lightbox_window_a"></div>
-	<div id="lightbox_window_b"></div>
-	<div id="lightbox_window_c"></div>
-
-	<div id="lightbox_window_d"></div>
-	<div id="lightbox_window_e"></div>
-	<div id="lightbox_window_g"></div>
-	
-	<div id="lightbox_window_g"></div>
-	<div id="lightbox_window_h"></div>
-	<div id="lightbox_window_i"></div>
 
 	<div id="collect_email" type="text"></div>
 <!-- the flollowing are the Usage Area headers, they surround the center oval with the arrows-->
@@ -116,19 +108,11 @@
 	<p>For more information, or help selecting the proper mat, contact us at...</p>
 <footer class="footer"><a href="mailto:cactuskid@cactusmat.com" target="blank">cactuskid@cactusmat.com</a></footer>
 
-				<script src="assets/jquery/jquery.min.js" type="text/javascript"></script>
+				
 <!--this is the javascript to make the area selctor elements change color when clicked on. I also want them to become larger in size. When the user clicks off the pop up this element should retirn to normal -->
-			<script>document.getElementById("area_selector").onclick = function() {changeColor()};
 
-				function changeColor() {
-    			document.getElementById("area_selector").style.color = "#ff9900";
-			}</script>
-
-	<script>if (onclick = "entrance"){
-  document.getElementById("select_entrance");
-}
-  </script>
-
-	<script src="js/bar_script.js" type="text/javascript"></script>
+	<script src="assets/jquery/jquery.min.js" type="text/javascript"></script>
+	<script src="assets/js/script.js" type="text/javascript"></script>
+	<script src="assets/js/lightbox.js" type="text/javascript"></script>
 	</body>
 </html>
