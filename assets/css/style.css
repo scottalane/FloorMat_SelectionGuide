@@ -446,29 +446,32 @@ p {
 }
 
 ul {
-	list-style-type: none;
+/*	list-style-type: none;*/
 	text-align: center;
-	text-decoration: none;
+/*	text-decoration: none;
+*/
 }
 
 li {
-	text-align: center;
+/*	text-align: center;
 	text-decoration: none;
+*/
 }
 
 div.detailsLeft{
+	position: relative;
 	left: 10%;
 	max-width: 50%;
 }
 
 div.detailsRight{
+	position: relative;
 	left: 80%;
 	max-width: 50%;
 }
 
 ul li.info{
 	text-align: left
-	text-decoration: ;
 }
 
 .info{
