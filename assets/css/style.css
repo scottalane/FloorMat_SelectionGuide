@@ -70,7 +70,7 @@ div.start_here_bkg {
     max-width: 100%;
     background-color: transparent;
     background-size: contain;
-    width: 100%;
+    width: 800px;
     height: 600px;
     background-position: center;
 }
@@ -129,7 +129,7 @@ div.make_selection_bkg {
 
 }
 div.master{
-	border: grey;
+	border: gray;
 	border-width: 3px;
 }
 
@@ -159,7 +159,8 @@ a {
 }
 
 a:link {
-	color: #808080;
+	/*this affect the mat choices in the center of the oval*/
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -550,3 +551,11 @@ th, td {
 	padding-right: 0px;
 }
 a[href^="mailto"] {color: #009900; }
+
+@media (min-width: 400px) {
+
+	.start_here_bkg {
+		width: 200px;
+	}
+
+}
